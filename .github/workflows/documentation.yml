@@ -11,6 +11,7 @@ on:
       - 'docusaurus.config.js'
       - 'package.json'
       - '.github/workflows/documentation.yml'
+      - 'sidebars.js'
 
   # Permite executar manualmente o workflow na interface do GitHub
   workflow_dispatch:

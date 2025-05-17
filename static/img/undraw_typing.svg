@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1080 800">
+  <rect x="250" y="200" width="580" height="300" rx="10" fill="#f0f0f0" stroke="#2E936C" stroke-width="8"/>
+  <rect x="280" y="280" width="520" height="40" rx="5" fill="#ffffff" stroke="#2E936C" stroke-width="3"/>
+  <text x="300" y="310" font-family="monospace" font-size="24" fill="#2E936C">prescrever paracetamol 500mg</text>
+  <rect x="350" y="400" width="380" height="60" rx="5" fill="#2E936C" fill-opacity="0.2"/>
+  <text x="540" y="440" font-family="sans-serif" font-size="24" text-anchor="middle" fill="#236e51">Comando reconhecido!</text>
+</svg>

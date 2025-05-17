@@ -1,9 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'prescreve.ai',
@@ -27,7 +24,6 @@ const config = {
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
 
-
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -42,19 +38,19 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-      routeBasePath: "/",
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/prescreve-ai/prescreve-ai-docs/tree/main/',
+            'https://github.com/andremillet/prescreve-ai/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/prescreve-ai/prescreve-ai-docs/tree/main/',
+            'https://github.com/andremillet/prescreve-ai/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -83,7 +79,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/prescreve-ai/prescreve-ai',
+            href: 'https://github.com/andremillet/prescreve-ai',
             label: 'GitHub',
             position: 'right',
           },
@@ -97,11 +93,11 @@ const config = {
             items: [
               {
                 label: 'Introdução',
-                to: '/docs/intro',
+                to: '/',
               },
               {
                 label: 'Guia Rápido',
-                to: '/docs/intro/quickstart',
+                to: '/intro/quickstart',
               },
             ],
           },
@@ -127,7 +123,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/prescreve-ai/prescreve-ai',
+                href: 'https://github.com/andremillet/prescreve-ai',
               },
             ],
           },
@@ -135,8 +131,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} prescreve.ai. Construído com Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: require('prism-react-renderer').themes.github,
+        darkTheme: require('prism-react-renderer').themes.dracula,
       },
     }),
 };
