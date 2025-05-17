@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktemp_docusaurus=self.webpackChunktemp_docusaurus||[]).push([[216],{3164:(u,e,s)=>{s.r(e),s.d(e,{default:()=>a});s(6540);var r=s(6347),t=s(4848);function a(){return(0,t.jsx)(r.rd,{to:"/prescreve-ai/"})}}}]);
