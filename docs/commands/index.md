@@ -60,6 +60,6 @@ Além dos três comandos principais, o prescreve.ai suporta:
 
 Para mais detalhes, consulte as páginas específicas para cada comando:
 
-- [Comando prescrever](prescrever)
-- [Comando solicitar](solicitar)
-- [Comando encaminhar](encaminhar)
+- [Comando prescrever](/prescreve-ai/commands/prescrever)
+- [Comando solicitar](/prescreve-ai/commands/solicitar)
+- [Comando encaminhar](/prescreve-ai/commands/encaminhar)

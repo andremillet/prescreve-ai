@@ -37,4 +37,4 @@ O prescreve.ai utiliza um modelo de linguagem local para interpretar esses coman
 - **Melhora a experiência do paciente** - mais tempo para interação humana
 - **Funciona offline** - não depende de conexão à internet
 
-[Comece agora →](quickstart)
+[Comece agora →](/prescreve-ai/intro/quickstart)

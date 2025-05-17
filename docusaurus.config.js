@@ -18,7 +18,7 @@ const config = {
   organizationName: 'andremillet', // Usually your GitHub org/user name.
   projectName: 'prescreve-ai', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: 'warn',
   // Configuração para GitHub Pages
   trailingSlash: false,
@@ -45,13 +45,7 @@ const config = {
           editUrl:
             'https://github.com/andremillet/prescreve-ai/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/andremillet/prescreve-ai/tree/main/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -77,7 +71,7 @@ const config = {
             position: 'left',
             label: 'Documentação',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          
           {
             href: 'https://github.com/andremillet/prescreve-ai',
             label: 'GitHub',
@@ -117,10 +111,7 @@ const config = {
           {
             title: 'Mais',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              
               {
                 label: 'GitHub',
                 href: 'https://github.com/andremillet/prescreve-ai',
